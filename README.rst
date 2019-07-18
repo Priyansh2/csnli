@@ -11,9 +11,10 @@ Requirements
 ::
 
     pip install dynet==2.0
-    NOTE: After install dynet check if it is working: 'import dynet_config'. If 'ImportError: No module named dynet_config' come then install it somehow and make sure that error disappears.
+    ** After install dynet check if it is working: 'import dynet_config'. **
+    ** If 'ImportError: No module named dynet_config' come then install it somehow and make sure that error disappears. **
     pip install gensim==0.13.4.1
-    NOTE: Same as above
+    ** If any error come and then install it somehow **
     pip install -r requirements.txt
     pip install https://www.github.com/irshadbhat/indic-wx-converter/archive/master.zip
     pip install https://github.com/kpu/kenlm/archive/master.zip
