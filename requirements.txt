@@ -1,11 +1,7 @@
-https://www.github.com/irshadbhat/indic-wx-converter/archive/master.zip
-https://github.com/kpu/kenlm/archive/master.zip
-gensim==0.13.4.1
 six
 tqdm
 future
 torch==0.3.1
 torchtext==0.2.1
-dynet==2.0
 numpy==1.14.3
 pyenchant==2.0.0
