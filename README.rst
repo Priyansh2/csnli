@@ -26,7 +26,8 @@ Download models from `csnli-models`_.
 .. _`csnli-models`: https://bitbucket.org/irshadbhat/csnli-models/src
 
 ::
-
+    
+    bunzip2 dicts/*
     bunzip2 lm/*
     bunzip2 lid_models/*
     bunzip2 nmt_models/*
