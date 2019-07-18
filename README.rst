@@ -12,7 +12,7 @@ Requirements
 
     pip install -r requirements.txt
     python build_viterbi.py build_ext --inplace
-    
+
 Download models from `csnli-models`_.
 
 .. _`csnli-models`: https://bitbucket.org/irshadbhat/csnli-models/src
@@ -20,7 +20,6 @@ Download models from `csnli-models`_.
 ::
 
     bunzip2 lm/*
-    bunzip2 dicts/*
     bunzip2 lid_models/*
     bunzip2 nmt_models/*
 
@@ -78,9 +77,9 @@ Train your own models
 ::
 
     python lang_tagger.py --help
-    
+
     Language Identification System
-    
+
     optional arguments:
       -h, --help            show this help message and exit
       --dynet-seed SEED
@@ -115,7 +114,7 @@ Any publication reporting the work done using this data should cite the followin
 
 ::
 
-    @inproceedings{bhat2017joining, 
+    @inproceedings{bhat2017joining,
       title={Joining Hands: Exploiting Monolingual Treebanks for Parsing of Code-mixing Data},
       author={Bhat, Irshad and Bhat, Riyaz A and Shrivastava, Manish and Sharma, Dipti},
       booktitle={Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers},
@@ -123,7 +122,7 @@ Any publication reporting the work done using this data should cite the followin
       pages={324--330},
       year={2017}
     }
-    
+
     @inproceedings{bhat20`18universal,
       title={Universal Dependency Parsing for Hindi-English Code-Switching},
       author={Bhat, Irshad and Bhat, Riyaz A and Shrivastava, Manish and Sharma, Dipti},
